@@ -1,8 +1,9 @@
 
 // import { useEffect, useState } from 'react';
 // import Navbar from '../components/Navbar';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigation } from 'react-router-dom';
 import BlogCart from '../components/BlogCart';
+import Loader from '../components/Loader';
 
 const Blogs = () => {
   // const [blogs, setBlogs] = useState([])
@@ -13,6 +14,8 @@ const Blogs = () => {
   // },[])
 
   const blogs = useLoaderData()
+  const navigation = useNavigation()
+  if(navigation.state === 'loading') return <Loader />
   console.log(blogs)
   return (
     <section className="bg-gray-800 bg-gray-800 py-6 text-gray-100 text-gray-100">
