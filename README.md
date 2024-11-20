@@ -1,6 +1,6 @@
 Live site Link: https://imaginative-empanada-27b594.netlify.app/
 
-#ByteBlaze
+# ByteBlaze
 A responsive React-based blog website bridging the gap between technology and curious minds. Explore insightful blogs, bookmark your favorites, and manage your bookmarks with ease. Built for seamless reading and engagement, ByteBlaze offers a user-friendly experience for tech enthusiasts.
 
 Resources I Used:
